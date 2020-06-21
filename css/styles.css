@@ -1,0 +1,378 @@
+/* 主页样式 */
+*{padding:0; margin:0;} 
+
+/* 标题字体大小、属性、粗细，仅有大写字母 */
+h1{
+	font-size:42px;
+	font-family:'Economica',sans-serif; 		font-weight:normal; 
+	text-transform:uppercase;
+}
+
+/* 页面主体背景粉色图片 */
+body{background:url(../images/pink.jpg); }
+
+/* 顶部 */
+.top{
+	background:url(../images/top.jpg); 
+	border-bottom:#fff solid 2px;
+	height:170px;
+	padding-top:30px;
+}/* 底部边框样式，顶部填充*/
+.top .container{
+	margin:0 auto;
+	width:880px;
+	height:100px;
+	padding:40px 60px 0px 60px;
+}
+.intro{
+	width:220px;
+	height:80px;
+	color:#533c47;
+	float:left;
+}
+
+/* 导航整体向右浮动  */
+.menu{
+	float:right; 
+	margin:10px;
+}
+
+/* 无序列表 */
+.menu ul li{
+	float:left; 
+	list-style:none;
+}/* 列表项向左浮动 */
+
+/* menu中链接 */
+.menu ul li a{
+	font-family:'Economica',sans-serif; 		font-size:22px; 
+	text-decoration:none; 
+	color:#533c47; 
+	display:block; 
+	text-align:center; 
+	padding:8px 24px 8px 24px; 
+	text-transform:uppercase;
+}/* 文本排列在中间 */
+.menu ul li a:hover{
+	background:#d1869b; 
+	border:#fff solid 1px;  
+	padding:7px 23px 7px 23px; 			color:#fff;
+}
+
+/* 展示海报CSS */
+.banner{
+	padding-top:40px;
+	height:440px;	
+}
+.img1{
+    margin:0 auto;
+	height:400px;
+	width:880px;
+}
+.shadow{
+    margin:0 auto;
+	background:url(../images/shadows.png) no-repeat center;
+	width:880px; 
+	height:40px;
+}
+
+/* 标题样式 */
+.title1{
+	color:pink;
+	height:120px;
+	text-align:center;
+	line-height:120px;
+	background:url(../images/purple.jpg);
+}
+
+
+/* 1号内容区样式 */
+.content1{
+	padding-top:20px;
+	padding-bottom:30px;
+	height:790px;
+}
+.container1{
+	margin:0 auto;
+	width:1000px;
+	height:260px;
+	background:white;
+	border:solid 1px grey;
+}
+
+/* 1号内容区上方左侧样式 */
+.container1 .left{
+	width:400px;
+	height:260px;
+	float:left;
+}
+.container1 .left img{
+	width:150px; 
+	height:150px; 
+	display:block; 
+	float:left;
+}/* 左侧图片 */
+.container1 .left .word1{
+	width:240px; 	height:150px;
+	float:right;
+}/* 左侧文字 */
+.container1 .left .word1 h2{
+	color:#3c3b3b; 
+	font-family:"Raleway",Helvetica,sans-serif; 
+	font-size:24px; 
+	letter-spacing:0.25em; 
+	line-height:1.65; 
+	text-align:center; 
+	margin: 0.5em 0 0.5em 0;
+}/* 左侧次标题 */
+.container1 .left .word1 span{
+	font-family:'Economica',sans-serif; 	font-size:22px; 
+	letter-spacing:0.25em; 
+	display:block; 
+	text-align:center;
+}
+.container1 .left .word2{
+	width:400px; 
+	height:100px; 
+	float:left
+}
+.container1 .left p{
+	font-family:'Economica',sans-serif; 		font-size:20px; 
+	letter-spacing:0.25em; 
+	text-align:center; 
+	margin: 1.5em 1em 1em 1em;
+}/* 左侧段落 */
+
+/* 1号内容区上方右侧样式 */
+.container1 .right{
+	width:599px; 
+	height:260px; 
+	float:right; 
+	border-left:solid 1px grey;
+}
+.container1 .right img{
+	display:block; 
+	margin:15px 15px 15px 15px;
+}/* 右侧图片 */
+
+/* 1号内容区下方home样式 */
+.home{
+	margin:0 auto;
+	width:1000px;
+	height:540px;
+	border-left:solid 1px grey;
+	border-right:solid 1px grey;
+	border-bottom:solid 1px grey;
+}
+.hp1{
+	width:1000px;
+	height:400px;
+	background:white;
+	display: table-cell;
+	text-align:center;
+	vertical-align:middle;
+}/* 作为表格单元格显示，放置在父元素中部 */
+.pra1{
+	width:970px;
+	height:120px;
+	padding:10px 15px 10px 15px;
+	background:white;
+}
+.pra1 p{
+	font-family:"Times New Roman",Times,serif;
+	font-size:15px;
+	line-height:1.5em;
+	align:center;
+	margin: 0em 1em 0em 1em;
+}
+.pra1 a{
+	font-family:'Economica',sans-serif; 
+	font-size:16px; 
+	font-weight:bold;
+	letter-spacing:0.25em; 
+	display:block; 
+	width:145px; 
+	height:40px; 
+	margin-top:15px; 
+	margin-left:16px;
+	line-height:40px;
+	text-align:center;
+	border:solid 1px grey;
+	background:white; 
+	text-decoration:none;
+	color:black;
+}
+.pra1 a:hover{border:#d1869b solid 1px; color:#d1869b;}
+
+
+
+/* 2号内容区样式 */
+.content2{
+	height:380px;
+}
+.trip{
+	margin:0 auto;
+	width:980px;
+	height:360px;
+	padding-top:35px;
+	background:url(../images/01.jpg);
+}
+.content2 .trip .part{
+	width:425px;
+	height:310px;
+	margin:0 30px 30px 30px;
+	border:solid 1px grey;
+	background:white;
+	float:left;
+}
+.content2 .trip .part img{
+	width:425px;
+	height:242px;
+	display:block;
+}
+.content2 .trip .part .word{
+	width:425px; 
+	height:60px;
+}
+.content2 .trip .part .word h3{
+	color:#3c3b3b; 
+	font-family:"Raleway",Helvetica,sans-serif; 
+	font-weight:800; 
+	letter-spacing:0.25em; 
+	line-height: 1.65; 
+	margin: 0.2em 0 0 1em;
+}
+.content2 .trip .part .word h4{
+	font-family:"Raleway",Helvetica,sans-serif; 
+	font-size:0.8em; 
+	font-weight:500; 
+	letter-spacing: 0.25em; 
+	margin: 0.6em 0 0 1.6em;
+}
+
+
+/* 3号内容区样式 */
+.container3{
+	width:1000px;
+	height:780px;
+	margin:0 auto;
+	background:url(../images/01.jpg);
+}
+.container3 .film{width:1000px; height:380px;}
+
+/* 3号内容区上方film样式，向左浮动 */
+.container3 .part{
+	width:650px;
+	height:310px;
+	margin:30px 0px 0px 30px;
+	padding:15px 0px 10px 20px;
+	background:white;
+	border:solid 1px grey;
+	float:left;
+}
+.container3 .part .word{
+	margin-bottom:10px; 
+	color:#3c3b3b; 
+	font-family:"Raleway",Helvetica,sans-serif; 
+	letter-spacing:0.22em;
+}
+.container3 .part img{
+	display:block; 	
+	float:left;
+}
+.container3 .part .intro{
+	font-size:12px;
+	width:376px;
+	height:240px;
+	background:url(../images/01.jpg);
+	margin-left:28px;
+	padding:15px 20px 0 24px;
+	float:left;
+	letter-spacing:0.2em;
+	line-height:18px;
+}
+
+/* 3号内容区下方film样式，向右浮动 */
+.container3 .part2 .word{
+	margin-bottom:10px; 
+	color:#3c3b3b; 
+	font-family:"Raleway",Helvetica,sans-serif; 
+	letter-spacing:0.22em; 
+	float:right;
+}
+.container3 .part2 .intro{
+	font-size:12px;
+	width:376px;
+	height:240px;
+	background:url(../images/01.jpg);
+	margin-left:28px;
+	float:left;
+	padding:15px 20px 0 24px;
+	letter-spacing:0.2em;
+	line-height:18px;
+}
+.container3 .part2 img{
+	display:block; 
+	float:right;
+}
+.container3 .part2{
+	width:650px;
+	height:310px;
+	margin:30px 30px 0px 0px;
+	padding:15px 20px 10px 0px;
+	background:white;
+	border:solid 1px grey;
+	float:left;
+}
+
+/* 3号内容区中film链接 */
+.container3 a{
+	display:block;
+	text-decoration:none; 
+	color:black;
+	width:160px;
+	height:50px;
+	margin:180px 50px 100px 60px;
+	line-height:50px;
+	text-align:center;
+	border:solid 1px grey;
+	background:white;
+	float:left;
+	font-family:"Raleway",Helvetica,sans-serif; font-size:18px;
+}
+.container3 a:hover{border:#d1869b solid 1px; color:#d1869b;}
+
+
+.list{
+	margin:40px 0 10px 180px;
+	font-size:35px;
+	font-family:'Economica',sans-serif; 
+	color:#533c47;
+	letter-spacing:0.1em; 
+}
+
+/* 表格样式 */
+table{
+	width:1000px;
+	margin:0 auto;
+	border-top:solid 1px white;
+	border-bottom:solid 1px white;
+	text-align:center;
+	font-size:16px;
+}
+thead th{background:pink;}/* 表头颜色与单元格颜色区分 */			
+table td,th{
+	padding:5px; 
+	border:1px solid white; 
+	border-width:0 1px 1px 1px;
+}
+
+
+.copyright{
+	width:300px; 
+	height:20px; 
+	margin:0 auto; 
+	text-align:center; 
+	font-size:14px; 
+	color:grey;
+}/* 灰色字体，位于容器中心 */

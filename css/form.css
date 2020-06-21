@@ -1,0 +1,74 @@
+/* 表单样式 */
+.basic-grey {
+	margin:20px 0 10px 180px;
+	max-width: 600px;
+	background: white;
+	padding: 25px 15px 25px 10px;
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	color: #888;
+	text-shadow: 1px 1px 1px #FFF;
+	border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+	font-size: 25px;
+	padding: 0px 0px 10px 40px;
+	display: block;
+	border-bottom:1px solid #E4E4E4;
+	margin: -10px -15px 30px -10px;
+	color: #888;
+	letter-spacing: 0.1em; 
+}
+/* label块级元素，边距0 */
+.basic-grey label {
+	display: block;
+	margin: 0px;
+}
+/* 标签向左浮动，右对齐 */
+.basic-grey label>span {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+	color: #888;
+}
+/* 输入域边框属性，颜色，高度，下边距，右边距，上部边距，周围轮廓，内边距，宽度，字体大小，行高，添加阴影，火狐谷歌浏览器内阴影 */
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+	border: 1px solid #DADADA;
+	color: #888;
+	height: 30px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 3px 3px 3px 5px;
+	width: 70%;
+	font-size: 12px;
+	line-height:15px;
+	box-shadow: inset 0px 1px 4px #ECECEC;
+	-moz-box-shadow: inset 0px 1px 4px #ECECEC;
+	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+/* 文本区内边距 */
+.basic-grey textarea{
+	padding: 5px 3px 3px 5px;
+}
+/* 文本区高度 */
+.basic-grey textarea{
+	height:100px;
+}
+/* 提交按钮背景，边框属性，内边距，颜色，添加阴影，圆角边框，基本文字阴影，光标形状 */
+.basic-grey .button {
+	background: #E27575;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+}
+/* 提交按钮指针悬停时，改变背景颜色 */
+.basic-grey .button:hover {
+	background: #CF7A7A
+}

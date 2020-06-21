@@ -1,0 +1,85 @@
+/* 电影页面样式 */
+body {
+    background:url(../images/01.jpg);
+}/* 背景粉色图片 */
+a {
+    color: #ed5b5b;
+}
+a:hover,
+a:focus {
+    color: #ed5b5b;
+}
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: #bd2929;
+    margin: 50px;
+}/* 文本居中 */
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    color: #a09e9e;
+    margin-bottom: 20px;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+hr {
+    border: none;
+}
+#about {
+    min-height: 130px;
+	background:url(../images/purple.jpg);
+    padding: 25px;
+}/* 背景紫色图片 */
+.btn-red {
+    background-color: #bd2929;
+}
+.btn-red a:link {
+    color: #fff;
+}
+.btn-red a:hover {
+    color: #ed5b5b;
+    text-decoration: none;
+}
+.portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}/* 以块状元素居中显示 */
+.portfolio-link:hover {
+    color: #fff;
+    opacity: .4;
+}/* 透明度0.4 */
+
+.img-centered {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+h1 {
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#about {
+    padding: 18px;
+}
